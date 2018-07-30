@@ -1,0 +1,158 @@
+/*
+Theme Name: 	Robojob Lite
+Theme URI: 		http://codethemes.co/themes/robojob
+Author: 		Code Themes
+Author URI: 	https://codethemes.co/
+
+Description: 	RoboJob Lite is the new best WordPress Job theme. Running a job site or a listing site becomes a lot more easier. It is a WP Job Manager powered WordPress theme for job sites. Since this is powered by a powerful and actively maintained WP Job Manager Plugin, there are a lot of extensions available, which mean a lot of possibilites. View Demo here https://demo.codethemes.co/robojob1/
+
+Version: 		2.4.10
+License: 		GNU General Public License v3 or later
+License URI: 	http://www.gnu.org/licenses/gpl-3.0.html
+
+Tags: 			one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+Text Domain: 	robojob-lite
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/* ----------------------------------------------------------------------------
+
+	The main css stylesheet of the Robojob theme is located in /assets/css/robojob.css.
+
+	The main reason why the main stylesheet of the Robojob theme has been moved to another place is : minification and concatenation.
+	Minification is a technique to compress a css file and therefore improve speed (page load time) of your website.
+
+	This style.css file provides details about the Theme (in the form of comments above) that is read by WordPress, and therefore cannot be minified.
+
+	Note : You can load the not minified stylesheet if you uncheck the option in the customizer > Global Settings > performances
+
+---------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------------------
+
+	Developers Recommendation
+
+	To make it easy to update your theme, you should NOT add your custom css rules to this file. Instead use
+	a child theme to add your styles. We have provided you with a child theme along with this theme package.
+
+	If you don't know what a child theme is, you really want to spend 5 minutes learning how to use child themes in WordPress.
+	https://codex.wordpress.org/Child_Themes
+
+---------------------------------------------------------------------------- */
+
+a.navbar-brand {
+    display: block;
+}
+a.navbar-brand span {
+    display: block;
+    margin-top: 10px;
+}
+p.site-description {
+    display: block;
+    font-size: 12px;
+}
+.post-author .entry-author{
+    margin-top: 0;
+    border-top: 0;
+    padding-top: 0;
+    background: #f5f5f5;
+    box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.05), 0 2px 6px 0 rgba(0, 0, 0, 0.10);
+    padding: 40px 30px;
+}
+.cat-links a{
+    font-size: 14px;
+}
+.entry-meta a {
+    font-size: 14px;
+}
+.entry-author .author-links a {
+    font-size: 15px;
+}
+
+[dir=rtl] .hover-icon {
+    left: 0;
+    right: auto;
+}
+[dir=rtl] .load_more_jobs:before, .load_more_s:before{
+    position: relative;
+}
+[dir=rtl] .navbar-nav .caret {
+    margin-right: 5px;
+}
+[dir=rtl]  .widget-title:before, [dir=rtl]  .widgettitle:before {
+    left: auto;
+    right: 0;
+}
+[dir=rtl] .search-form input.search-field {
+    width: 100%;
+}
+[dir=rtl] .search-form.header-search-form input.search-field {
+    width: 100%;
+    text-align: center;
+}
+.sticky:before {
+    z-index: 99;
+}
+.post-author .entry-author{
+    line-height: 1.6;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.fallback_menu_default {
+    float: right!important;
+    margin-top: 10px;
+}
+.fallback_menu_default li {
+    float: left;
+    display: block;
+    position: relative;
+}
+.fallback_menu_default li a{
+    line-height: 45px;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    display: block;
+    position: relative;
+    padding: 10px 15px;
+    color: #91989a;
+}
+.archive-content article .post-content {
+    position: relative;
+}
+.archive-content article .entry-author {
+    position: absolute;
+    right: 26px;
+    top: -31px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.archive-content article .hover-icon {
+    right: auto;
+    left: 0;
+}
+.author-codemin article .post-content {
+    position: relative;
+}
+.author-codemin article .entry-author {
+    position: absolute;
+    right: 26px;
+    top: -31px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.author-codemin article .hover-icon {
+    right: auto;
+    left: 0;
+}
+.widget .search-form.header-search-form input.search-submit {
+    width: 25%;
+}
+article img{
+    width: 100%;
+}
